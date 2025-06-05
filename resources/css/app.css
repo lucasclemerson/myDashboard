@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@source "../views";
+@import "bootstrap-icons/font/bootstrap-icons";
+
+*{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Fundo da barra (trilho) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Cor do botão de rolagem (alça) */
+::-webkit-scrollbar-thumb {
+  background: #155dfc;
+  border-radius: 0px;
+}
+
+/* Alça ao passar o mouse */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+.animate-jump{
+  animation: animate-jump 2s ease-in-out infinite;
+}
+
+@keyframes animate-jump {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+}
