@@ -13,6 +13,7 @@
     </head>
     <body class="bg-blue-500">
         @include('home.header')
+        @include('home.content')
         @yield($content)
         @include('home.contact')
         @include('home.footer')
