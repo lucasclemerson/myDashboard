@@ -1,4 +1,4 @@
-<footer class="w-full mx-auto flex bg-blue-600 py-5 mt-10">
+<footer class="w-full mx-auto flex bg-blue-600 py-5">
     <div class="w-1/2">
        <img class="flex mx-auto" src="{{ asset('images/logo.png') }}" alt="logo the web site" width="200">
     </div>

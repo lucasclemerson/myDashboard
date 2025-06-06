@@ -14,6 +14,7 @@
     <body class="bg-blue-500">
         @include('home.header')
         @yield($content)
+        @include('home.contact')
         @include('home.footer')
     </body>
 </html>
