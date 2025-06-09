@@ -1,4 +1,4 @@
-<footer class="w-full justify-items-center text-white bg-blue-600 py-5">
+<footer id="social" class="w-full justify-items-center text-white bg-blue-600 py-5">
     <div class="w-11/12 grid grid-cols-3 align-middle justify-between">            
         <div class="grid">
             <div class="w-full">

@@ -1,5 +1,5 @@
 @section('home')
-<section class="relative w-full mx-auto py-24 z-0 overflow-hidden">
+<section id="formNewsletter" class="relative w-full mx-auto py-24 z-0 overflow-hidden">
     <div class="transform transition-transform duration-300 hover:scale-105 absolute w-1/2 h-180 rotate-45 bg-blue-800 end-[-200px] opacity-12 z-0 animate-jump">
     </div>
     <div class="grid md:grid-cols-2 mx-auto w-11/12 text-white">
@@ -7,7 +7,7 @@
             <h1 class="text-7xl my-4">The simplest way to manage your personal finances</h1>
             <p>More than 4 million people have chosen our product to manage their financial careers on a daily basis and thus have managed to avoid getting a surprise at the end of the month. </p>
         
-            <form id="formNewsletter" action="{{ route('home') }}" method="POST">
+            <form action="{{ route('home') }}" method="POST">
                 @csrf
                 <div class="flex justify-between mt-5 rounded-4xl bg-white p-2">
                     <div class="w-2/3 mx-2 my-auto">

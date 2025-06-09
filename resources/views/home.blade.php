@@ -17,5 +17,14 @@
         @yield($content)
         @include('home.contact')
         @include('home.footer')
+  
+        <script>
+            function scrollToId(id) {
+              const element = document.getElementById(id);
+              if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+              }
+            }
+        </script>
     </body>
 </html>
