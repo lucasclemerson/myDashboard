@@ -1,6 +1,6 @@
 @section('home')
 <section class="relative w-full mx-auto py-24 z-0 overflow-hidden">
-    <div class="absolute w-1/2 h-180 rotate-45 bg-blue-800 end-[-200px] opacity-12 z-0 animate-jump">
+    <div class="transform transition-transform duration-300 hover:scale-105 absolute w-1/2 h-180 rotate-45 bg-blue-800 end-[-200px] opacity-12 z-0 animate-jump">
     </div>
     <div class="grid md:grid-cols-2 mx-auto w-11/12 text-white">
         <div class="gap-y-6">

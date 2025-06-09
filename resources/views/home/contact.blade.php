@@ -1,8 +1,6 @@
 
 <section class="relative w-full mx-auto py-8 z-0 overflow-hidden bg-white">
-    <div style="z-index:-999" class="absolute z-0 h-150 w-150 rotate-45 bg-black start-[-200px] opacity-20 animate-jump">
-    </div>
-    <div style="z-index:-999" class="absolute z-0 h-220 w-1/2 rotate-45 bg-black end-[-200px] opacity-20 animate-jump">
+    <div style="z-index:-999" class="transform transition-transform duration-300 hover:scale-105 absolute z-0 h-150 w-150 rotate-45 bg-black start-[-200px] opacity-20 animate-jump">
     </div>
     <div class="z-10 grid grid-cols-1 py-12 justify-center mx-auto w-11/12 px-4 rounded-4xl bg-white mt-3 shadow-2xl">
         <h5 class="text-center text-5xl mt-8 mb-16">Contact us</h5>
