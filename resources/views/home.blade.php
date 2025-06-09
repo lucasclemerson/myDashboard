@@ -15,6 +15,7 @@
         @include('home.header')
         @include('home.content')
         @yield($content)
+        @include('home.tools')
         @include('home.contact')
         @include('home.footer')
   
@@ -25,6 +26,20 @@
                 element.scrollIntoView({ behavior: 'smooth' });
               }
             }
+
+            const carousel = document.getElementById('carousel');
+            const next = document.getElementById('nextBtn');
+            let haveOne = false;
+
+            function scrollNext() {
+                carousel.scrollBy({
+                    left: carousel.offsetWidth,
+                    behavior: 'smooth'
+                });
+            }
+
+            next.addEventListener('click', scrollNext);
+            setInterval(scrollNext, 5000);
         </script>
     </body>
 </html>

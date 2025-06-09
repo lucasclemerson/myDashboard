@@ -1,5 +1,5 @@
 <footer id="social" class="w-full justify-items-center text-white bg-blue-600 py-5">
-    <div class="w-11/12 grid grid-cols-3 align-middle justify-between">            
+    <div class="w-11/12 grid gap-5 lg:gap-0 grid-cols-1 lg:grid-cols-3 align-middle justify-between">            
         <div class="grid">
             <div class="w-full">
                 <h1><strong class="font-bold">MyDashboard</strong></h1>
@@ -32,7 +32,7 @@
             <p class="text-sm text-center mt-auto">All rights reserved &copy; {{ date('Y') }}</p>
         </div>
 
-        <div class="flex justify-end gap-5 mt-auto">
+        <div class="flex justify-center lg:justify-end gap-5 mt-auto">
             <p class="text-sm text-center"><a class="underline hover:text-amber-300" href="#">Privacy</a></p>
             <p class="text-sm text-center"><a class="underline hover:text-amber-300" href="#">Terms of service</a></p>
         </div>

@@ -23238,14 +23238,6 @@ __webpack_require__.r(__webpack_exports__);
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
-function scrollToId(id) {
-  var element = document.getElementById(id);
-  if (element) {
-    element.scrollIntoView({
-      behavior: 'smooth'
-    });
-  }
-}
 
 /***/ }),
 

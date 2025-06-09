@@ -6,9 +6,9 @@
             <ul class="hidden md:flex gap-4 justify-items-center align-baseline py-2">
                 <li><a class="@if ($content=='home') text-amber-400 @endif font-bold hover:text-yellow-300" href="{{ route('home') }}">Home</a></li>
                 <li><a class="@if ($content=='newsletter') text-amber-400 @endif font-bold hover:text-yellow-300" href="#formNewsletter" onclick="scrollToId('formNewsletter'); return false;">Newsletter</a></li>
-                <li><a class="@if ($content=='about') text-amber-400 @endif font-bold hover:text-yellow-300" href="#" onclick="scrollToId('#'); return false;">About</a></li>
+                <li><a class="@if ($content=='about') text-amber-400 @endif font-bold hover:text-yellow-300" href="#tools" onclick="scrollToId('tools'); return false;">About</a></li>
                 <li><a class="@if ($content=='contact') text-amber-400 @endif font-bold hover:text-yellow-300" href="#formNewContact" onclick="scrollToId('formNewContact'); return false;">Contact</a></li>
-                <li><a class="@if ($content=='blog') text-amber-400 @endif font-bold hover:text-yellow-300" href="#social" onclick="scrollToId('#social'); return false;">Social</a></li>
+                <li><a class="@if ($content=='blog') text-amber-400 @endif font-bold hover:text-yellow-300" href="#social" onclick="scrollToId('social'); return false;">Social</a></li>
             </ul>
         </div>
 
