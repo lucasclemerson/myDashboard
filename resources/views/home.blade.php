@@ -34,10 +34,17 @@
                 
                 btnNext.addEventListener('click', ()=>{
                     mover = posicaoAnterior + 100
-                    if (mover < 200){
+
+                    if (window.screen.width < 800){
                         for(let c = 0; c < itens.length; c++ ){
-                        itens[c].style.right = mover + '%'
-                        posicaoAnterior = mover
+                            itens[c].style.right = mover + '%'
+                            posicaoAnterior = mover
+                        }
+                    }
+                    else if (mover < 200){
+                        for(let c = 0; c < itens.length; c++ ){
+                            itens[c].style.right = mover + '%'
+                            posicaoAnterior = mover
                         }
                     }else{
                         for(let c = 0; c < itens.length; c++ ){
@@ -51,10 +58,17 @@
                 
                 btnBack.addEventListener('click', ()=>{
                     mover = posicaoAnterior - 100
-                    if (mover > 0){
+
+                    if (window.screen.width < 800){
                         for(let c = 0; c < itens.length; c++ ){
-                        itens[c].style.right = mover + '%'
-                        posicaoAnterior = mover
+                            itens[c].style.right = mover + '%'
+                            posicaoAnterior = mover
+                        }
+                    }
+                    else if (mover > 0){
+                        for(let c = 0; c < itens.length; c++ ){
+                            itens[c].style.right = mover + '%'
+                            posicaoAnterior = mover
                         }
                     }else{
                         for(let c = 0; c < itens.length; c++ ){
